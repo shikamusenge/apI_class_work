@@ -1,1 +1,3 @@
-/node_module
+node_modules/
+/server/node_module
+/client/node_module
