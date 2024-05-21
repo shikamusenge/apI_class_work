@@ -14,7 +14,6 @@ const deleteItem = async (id) => {
   }
   updateUI();
 };
-
 const setUpButton = () => {
   document.querySelectorAll(".del-item").forEach((btn) => {
     btn.onclick = () => deleteItem(btn.value);
